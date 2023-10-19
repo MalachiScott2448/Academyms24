@@ -21,9 +21,14 @@ a {
 
 .header h1 {
     color: white;
+    transition: 0.3s;
 }
 
-.header a {
+.header h1:hover {
+    color: #586b8d;
+}
+
+.header nav a {
     color: white;
     text-transform: uppercase;
     text-align: center;
