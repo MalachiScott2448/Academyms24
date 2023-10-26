@@ -43,6 +43,7 @@ a {
 }
 
 /* main */
+/* section 1 */
 .section1 {
     position: relative;
     background: url('image/fitLabWebsite.jpg') center center no-repeat;
@@ -79,6 +80,7 @@ a {
     margin-bottom: 20px;
     margin-right: 10px;
     padding: 20px 50px;
+    border-radius: 10px;
 }
 
 .codeBox h3 {
@@ -98,6 +100,9 @@ a {
     line-height: 2;
 }
 
+/* section 2 is unchanged */
+
+/* section 3 */
 .section3 {
     position: relative;
     background-color: rgba(128, 128, 128, 0.103);
@@ -123,6 +128,117 @@ a {
 
 .section3 a:hover {
     color: black;
+}
+
+/* section 4 */
+.section4 {
+    background-color: rgba(87, 87, 87, 0.103);
+    margin: 20px 0;
+    margin-top: 0;
+    padding: 50px 0;
+}
+
+.section4 h2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.section4 p {
+    text-align: center;
+}
+
+.section4 a {
+    background-color: #353b46;
+    color: white;
+    margin: 20px 60px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.section4 a:nth-child(2) {
+    background-color: #e7e7e9;
+    color: black;
+}
+
+.section4 a:hover {
+    scale: 1.1;
+    background-color: #586b8d;
+    color: white;
+}
+
+/* section 5 */
+.section5 {
+    margin-bottom: 20px;
+}
+
+.section5 h3 {
+    font-size: 40px;
+}
+
+/* section 6 */
+.section6 {
+    background-color: rgba(87, 87, 87, 0.103);
+    height: 1000px;
+    padding-top: 50px
+}
+
+.section6 h3 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.section6 h4 {
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 20%;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.section6 img {
+    padding-top: 30px;
+    display: none;
+}
+
+.section6 ul {
+    padding: 20px 60px;
+    padding-top: 60px;
+}
+
+.section6 ul:first-child {
+    padding-left: 0;
+}
+
+.expBox {
+    background-color: #353b46;
+    padding: 50px;
+    border-radius: 50px;
+    border: 10px solid #586b8d;
+    box-shadow: 10px 10px 10px #8c95a7c9;
+    display: none;
+    transition: opacity 2s;
+}
+
+.expBox h4 {
+    padding-bottom: 50px;
+}
+
+.section6 li {
+    margin-bottom: 80px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.section6 li:hover {
+    scale: 1.1;
+    background-color: #353b46;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 /* footer */
