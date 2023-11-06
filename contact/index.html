@@ -33,38 +33,40 @@
                 </div>
             </div>
         </header>
-        <main>
+        <main class="main">
             <section class="section1Con">
                 <div class="container">
                     <div class="row">
-                        <div>
+                        <div class="formBox">
                             <h2>Please fill out this Form to get in Contact</h2>
-                            <form>
-                                <h3>Information about you:</h3>
-                                <label>First Name</label>
-                                    <input type="text">
-                                <label>Last Name</label>
-                                    <input type="text">
-                                <label>E-mail</label>
-                                    <input type="text">
-                                <label>Phone Number</label>
-                                    <input type="text">
-                                <label>Business <span>(If Applicable)</span></label>
-                                    <input type="text">
-                                <h3>Reason for Contacting:</h3>
-                                <label>Subject</label>
-                                    <select name="subject" id="subject">
-                                        <option value="select">-select-</option>
-                                        <option value="1">Small Project</option>
-                                        <option value="2">Large Project</option>
-                                        <option value="3">Interest for Employment</option>
-                                        <option value="4">Reply on Previous Job</option>
-                                        <option value="5">Other</option>
-                                    </select>
-                                <label>Other</label>
-                                    <input type="text" name="textBox" id="messBox">
-                                <input type="text" name="messBox" id="messBox" placeholder="message">
-                                <button>Submit</button>
+                            <form class="form">
+                                <div class="d-flex flex-column inner">
+                                    <h3>Information about you:</h3>
+                                    <label>First Name:</label>
+                                        <input class="input" type="text" required>
+                                    <label>Last Name:</label>
+                                        <input class="input" type="text" required>
+                                    <label>E-mail:</label>
+                                        <input class="input" type="text">
+                                    <label>Phone Number:</label>
+                                        <input class="input" type="text" required>
+                                    <label>Business <span>(If Applicable):</span></label>
+                                        <input class="input" type="text" required>
+                                    <h3>Reason for Contacting:</h3>
+                                    <label>Subject</label>
+                                        <select name="subject" id="subject" required>
+                                            <option id="select" value="select" hidden>-select-</option>
+                                            <option value="1">Small Project</option>
+                                            <option value="2">Large Project</option>
+                                            <option value="3">Interest for Employment</option>
+                                            <option value="4">Reply on Previous Job</option>
+                                            <option value="5">Other</option>
+                                        </select>
+                                    <label>Other</label>
+                                        <input class="messBox" type="text" name="textBox" id="messBox">
+                                    <input type="text" name="messBox" id="messBox" placeholder="message" rows="5" required>
+                                    <button>Submit</button>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -74,36 +76,36 @@
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                <div class="col-4">
-                    <h3>Services</h3>
-                    <div>
-                        <ul>
-                            <li><a href="service/front.html" target="_blank">Front End</a></li>
-                            <li><a href="service/back.html" target="_blank">Back End</a></li>
-                            <li><a href="service/full.html" target="_blank">Full Service</a></li>
-                        </ul>
+                    <div class="col-4">
+                        <h3>Services</h3>
+                        <div>
+                            <ul>
+                                <li><a href="service/front.html" target="_blank">Front End</a></li>
+                                <li><a href="service/back.html" target="_blank">Back End</a></li>
+                                <li><a href="service/full.html" target="_blank">Full Service</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <h3>Media</h3>
-                    <div>
-                        <ul>
-                            <li><a href="#" target="_blank">Instagram</a></li>
-                            <li><a href="#" target="_blank">Facebook</a></li>
-                            <li><a href="#" target="_blank">Twitter</a></li>
-                            <li><a href="#" target="_blank">Youtube</a></li>
-                        </ul>
+                    <div class="col-4">
+                        <h3>Media</h3>
+                        <div>
+                            <ul>
+                                <li><a href="#" target="_blank">Instagram</a></li>
+                                <li><a href="#" target="_blank">Facebook</a></li>
+                                <li><a href="#" target="_blank">Twitter</a></li>
+                                <li><a href="#" target="_blank">Youtube</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <h3>Other Sites</h3>
-                    <div>
-                        <ul>
-                            <li><a href="https://github.com/MalachiScott2448" target="_blank">GitHub</a></li>
-                            <li><a href="https://www.linkedin.com/in/malachi-scott-448a91297/" target="_blank">LinkIn</a></li>
-                        </ul>
+                    <div class="col-4">
+                        <h3>Other Sites</h3>
+                        <div>
+                            <ul>
+                                <li><a href="https://github.com/MalachiScott2448" target="_blank">GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/malachi-scott-448a91297/" target="_blank">LinkIn</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
             </div>
         </footer>
     </body>
